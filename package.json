@@ -1,6 +1,6 @@
 {
-  "name": "@pmmmwh/react-refresh-webpack-plugin",
-  "version": "0.5.7",
+  "name": "@lh0x00/react-refresh-webpack-plugin",
+  "version": "0.6.0",
   "description": "An **EXPERIMENTAL** Webpack plugin to enable \"Fast Refresh\" (also previously known as _Hot Reloading_) for React components.",
   "keywords": [
     "react",
@@ -15,13 +15,13 @@
     "hot",
     "reload"
   ],
-  "homepage": "https://github.com/pmmmwh/react-refresh-webpack-plugin#readme",
+  "homepage": "https://github.com/lh0x00/react-refresh-webpack-plugin#readme",
   "bugs": {
-    "url": "https://github.com/pmmmwh/react-refresh-webpack-plugin/issues"
+    "url": "https://github.com/lh0x00/react-refresh-webpack-plugin/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pmmmwh/react-refresh-webpack-plugin.git"
+    "url": "git+https://github.com/lh0x00/react-refresh-webpack-plugin.git"
   },
   "license": "MIT",
   "author": "Michael Mok",
@@ -42,7 +42,7 @@
     "test:pre": "run-s yalc:publish yalc:add",
     "test:exec": "node scripts/test.js",
     "test:post": "yarn yalc:clean",
-    "yalc:add": "yalc add --dev @pmmmwh/react-refresh-webpack-plugin",
+    "yalc:add": "yalc add --dev @lh0x00/react-refresh-webpack-plugin",
     "yalc:clean": "yalc remove --all",
     "yalc:publish": "yalc publish --no-scripts",
     "lint": "eslint --report-unused-disable-directives --ext .js,.jsx .",
